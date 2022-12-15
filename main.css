@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(to right, orange, red);
+}
+
+
+.entry {
+    justify-content: space-between;
+    border-radius: .5rem;
+    box-shadow: inset 4px -4px 5px 3px rgba(0, 0, 0, 0.31), inset -4px 4px 4px 6px rgba(255, 255, 255, 0.182);
+    padding: 0 10px;
+}
+
+.form-container {
+    justify-content: space-evenly;
+    border-radius: .5rem;
+    box-shadow: inset 0 0 5px 8px rgba(0, 0, 0, 0.31);
+    background-image: linear-gradient(to left, yellow, rgb(255, 111, 0));
+
+}
+
+.entry:first-of-type {
+    background-color: blue;
+    color: white;
+}
+
+/* 
+.category-box {
+    border-right: 1px solid black;
+
+} */
