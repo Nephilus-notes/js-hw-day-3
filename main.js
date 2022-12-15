@@ -121,17 +121,6 @@ formEl.addEventListener('submit', (e) => {
 
     getDatabyYear(yearInput.value, positionInput.value)
 
-    // Making string of the person
-    // addEmployee(nameInput.value, jobTitleInput.value, id)
-    // employees.push({
-    //     id:id,
-    //     name: nameInput.value,
-    //     jobTitle: jobTitleInput.value
-    // })
-
-    // Saving it to storage
-    // localStorage.setItem('employees', JSON.stringify(employees))
-
     yearInput.value = ''
     positionInput.value = ''
 })
